@@ -1,0 +1,19 @@
+{
+  "name": "react-store-service",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc --target es6"
+  },
+  "author": "wangrujiang <rudolph.wang@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.8.15",
+    "@types/react-dom": "^16.8.4",
+    "csstype": "^2.6.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "typescript": "^3.4.5"
+  }
+}
