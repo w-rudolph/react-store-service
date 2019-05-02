@@ -1,2 +1,2 @@
-export { Subject } from './subject';
+export { Subject, BehaviorSubject, AsyncSubject } from './subject';
 export { connect } from './connect';
