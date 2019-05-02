@@ -7,6 +7,10 @@
     "build": "tsc"
   },
   "author": "wangrujiang<rudolph.wang@foxmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:w-rudolph/react-store-service.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.8.15",
