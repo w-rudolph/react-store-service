@@ -7,6 +7,6 @@
 `yarn add react-store-service `
 or `npm install react-store-service -S`
 
-#demo
+# demo
 
 [react-store-service-demo](https://github.com/w-rudolph/react-store-service-demo)
