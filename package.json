@@ -1,12 +1,12 @@
 {
   "name": "react-store-service",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "React store management",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc --target es6"
+    "build": "tsc"
   },
-  "author": "wangrujiang <rudolph.wang@foxmail.com>",
+  "author": "wangrujiang<rudolph.wang@foxmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^16.8.15",

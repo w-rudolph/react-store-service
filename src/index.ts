@@ -1,2 +1,2 @@
-import  './subject';
-import  './connect';
+export { Subject } from './subject';
+export { connect } from './connect';
