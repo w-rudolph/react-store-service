@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "rootDir": "src",
-    "target": "es6",
-    "module": "commonjs",
+    "target": "es5",
+    "module": "umd",
     "moduleResolution": "node",
     "downlevelIteration": true,
     "alwaysStrict": true,
@@ -16,7 +16,7 @@
     "noUnusedParameters": false,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "lib": ["es6"]
+    "lib": ["esnext"]
   },
   "include": ["src/**/*.ts"]
 }
