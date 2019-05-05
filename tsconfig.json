@@ -2,7 +2,6 @@
   "compilerOptions": {
     "rootDir": "src",
     "target": "es5",
-    "module": "umd",
     "moduleResolution": "node",
     "downlevelIteration": true,
     "alwaysStrict": true,
@@ -16,7 +15,7 @@
     "noUnusedParameters": false,
     "noImplicitAny": false,
     "noImplicitThis": false,
-    "lib": ["esnext"]
+    "lib": ["es5", "es2015"]
   },
   "include": ["src/**/*.ts"]
 }
