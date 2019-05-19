@@ -17,7 +17,7 @@ export function connect(injectors: Injector[]) {
         injectState: {},
         injectUnsubs: []
       } as InjectedState;
-      componentWillMount() {
+      componentDidMount() {
         let newInjectedState = {};
         let injectUnsubs: Unsubscribe[] = [];
         injectors.forEach(injector => {
