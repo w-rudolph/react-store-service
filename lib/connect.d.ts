@@ -12,7 +12,7 @@ declare type InjectedState = {
 export declare function connect(injectors: Injector[]): (WrappedComponent: React.ComponentType<{}>) => {
     new (props: Readonly<{}>): {
         state: InjectedState;
-        componentWillMount(): void;
+        componentDidMount(): void;
         componentWillUnmount(): void;
         render(): React.ReactElement<{}, string | ((props: any) => React.ReactElement<any, string | any | (new (props: any) => React.Component<any, any, any>)> | null) | (new (props: any) => React.Component<any, any, any>)>;
         context: any;
@@ -27,7 +27,7 @@ export declare function connect(injectors: Injector[]): (WrappedComponent: React
     };
     new (props: {}, context?: any): {
         state: InjectedState;
-        componentWillMount(): void;
+        componentDidMount(): void;
         componentWillUnmount(): void;
         render(): React.ReactElement<{}, string | ((props: any) => React.ReactElement<any, string | any | (new (props: any) => React.Component<any, any, any>)> | null) | (new (props: any) => React.Component<any, any, any>)>;
         context: any;
